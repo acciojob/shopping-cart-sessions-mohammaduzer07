@@ -14,7 +14,7 @@ const productList = document.getElementById("product-list");
 const cartList = document.getElementById("cart-list");
 const clearbtn = document.getElementById("clear-cart-btn");
 
-let cart = JSON.parse(sessionStorage.getItem("cart") || [];
+let cart = JSON.parse(sessionStorage.getItem("cart")) || [];
 
 // Render product list
 function renderProducts() {
