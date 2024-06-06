@@ -73,7 +73,7 @@ cartList.addEventListener('click', (event) =>{
 	}
 });
 
-cartbtn.addEventListener('click', clearCart);
+clearbtn.addEventListener('click', clearCart);
 
 // Initial render
 renderProducts();
